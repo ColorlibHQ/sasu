@@ -301,15 +301,13 @@ if ( !class_exists( 'Sasu_El_Widgets' ) ) {
             // googleapis js
             wp_register_script( 'maps-googleapis', '//maps.googleapis.com/maps/api/js?key='.esc_attr( $apiKey ) );
 
-            // ajaxchimp js
-            wp_enqueue_script( 'jquery-ajaxchimp', SASU_DIR_ELEMENTOR . 'assets/js/jquery.ajaxchimp.min.js', array('jquery'), '1.0', true );
 
 
             // sasu map custom js
-            wp_register_script( 'sasu-map-custom', SASU_DIR_ELEMENTOR . 'assets/js/map-custom.js', array('jquery'), '1.0', true );
+            wp_register_script( 'sasu-map-custom', SASU_DIR_ELEMENTOR . 'assets/js/map-custom.js', array(), '1.0-s2', true );
 
             // sasu companion main js
-            wp_enqueue_script( 'sasu', SASU_DIR_ELEMENTOR . 'assets/js/sasu-companion-main.js', array( 'jquery', 'jquery-ui-datepicker' ), '1.0', true );
+            wp_enqueue_script( 'sasu', SASU_DIR_ELEMENTOR . 'assets/js/sasu-companion-main.js', array( 'sasu-ui-js' ), '1.0-s2', true );
 
 
             wp_localize_script( 'sasu', 'ajax_object',
