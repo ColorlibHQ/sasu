@@ -237,7 +237,7 @@
 						'handler'		=> 'sasu-custom',
 						'file' 			=> $jsPath.'custom.js',
 						'dependency' 	=> array( 'sasu-ui-js' ),
-						'version' 		=> $this->sasu_version . '-s2',
+						'version' 		=> $this->sasu_version . '-s3',
 						'in_footer' 	=> true
 					),
 
