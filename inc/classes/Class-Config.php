@@ -184,7 +184,7 @@
 						'handler'		=> 'sasu-flaticon',
 						'file' 			=> $cssPath.'flaticon.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0',
+						'version' 		=> '1.0-s3',
 					),
 					array(
 						'handler'		=> 'sasu-magnific-popup-css',
@@ -208,7 +208,7 @@
 						'handler'		=> 'sasu-style-css',
 						'file' 			=> $cssPath.'style.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0',
+						'version' 		=> '1.0-s3',
 					),
 					
 					array(
